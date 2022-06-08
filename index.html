@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="card">
+        <!-- <div class="search">
+            <input type="text" class="searchbar">
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div> -->
+        <div class="search">
+            <button class="btn-search"><i class="fas fa-search"></i></button>
+            <input type="text" class="input-search" placeholder="Type to Search...">
+          </div>
+        <div class="weather loading"><br>
+            <h2 class="city">Weather in India</h2><br>
+            <div class="temp">51°C</div>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" class="icon" alt="" />
+                <div class="discription"></div>
+            </div>
+            <div class="humidity">Humidity : 60%</div>
+            <div class="wind">Wind speed :6.2 km/h</div>
+
+        </div>
+    </div>
+</body>
+
+</html>

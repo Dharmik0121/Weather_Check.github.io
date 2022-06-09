@@ -14,7 +14,7 @@ let weather = {
         const { icon, description} = data.weather[0];
         const {temp,humidity} = data.main;
         const { speed } = data.wind;
-        console.log(name,icon,description,temp,humidity,speed);
+        // console.log(name,icon,description,temp,humidity,speed);
         document.querySelector(".city").innerHTML = "Weather in "+name;
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + "@2x.png"
         document.querySelector(".discription").innerText = description;
@@ -39,4 +39,4 @@ document.querySelector(".input-search")
         weather.search();
     }
 })
-// weather.fetchWeather("surat");
+weather.fetchWeather("surat");
